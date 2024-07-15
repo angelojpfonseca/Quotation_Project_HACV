@@ -1,0 +1,6 @@
+langchain
+anthropic
+pymongo
+streamlit
+pypdf
+python-dotenv
