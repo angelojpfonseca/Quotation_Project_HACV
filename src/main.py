@@ -27,7 +27,7 @@ if MONGODB_URI and MONGODB_URI.startswith('y'):
 
 print(f"Loaded MongoDB URI: {MONGODB_URI.split('@')[0]}@{'*' * len(MONGODB_URI.split('@')[1])}")
 
-DB_NAME = 'product_comparison'  # You can change the database name
+DB_NAME = 'product_comparison' 
 
 class MongoDBHandler:
     def __init__(self):
